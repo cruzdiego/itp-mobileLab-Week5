@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/diegocruz/Downloads/mobile-lab-websocket-kit-master/itp-mobilelab-week5.xcodeproj">
+      location = "group:itp-mobilelab-week5.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

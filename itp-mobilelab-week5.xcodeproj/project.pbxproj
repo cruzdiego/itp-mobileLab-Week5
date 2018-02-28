@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08F526432046E7D200CB5899 /* PlayerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5263E2046E7D200CB5899 /* PlayerInteractor.swift */; };
+		08F526442046E7D200CB5899 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5263F2046E7D200CB5899 /* PlayerViewController.swift */; };
+		08F526452046E7D200CB5899 /* ControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F526412046E7D200CB5899 /* ControllerInteractor.swift */; };
+		08F526462046E7D200CB5899 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F526422046E7D200CB5899 /* ControllerViewController.swift */; };
+		08F526482046E82500CB5899 /* DogImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F526472046E82500CB5899 /* DogImageInteractor.swift */; };
+		08F5264A2046F01200CB5899 /* ServerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F526492046F01200CB5899 /* ServerInteractor.swift */; };
+		3A9D4393F2F4D688CD8EB6FB /* Pods_itp_mobilelab_week5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6265AED66B2EE04AEB97B218 /* Pods_itp_mobilelab_week5.framework */; };
 		4EF721CEF9A5D53408F61CDC /* Pods_MobileLabWebSocketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E4FC41C5245B3CD7E6534 /* Pods_MobileLabWebSocketKit.framework */; };
-		6A5DA281203E06EC0092170D /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA277203E06EC0092170D /* up.png */; };
-		6A5DA282203E06EC0092170D /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA278203E06EC0092170D /* down.png */; };
 		6A5DA283203E06EC0092170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA279203E06EC0092170D /* Assets.xcassets */; };
 		6A5DA284203E06EC0092170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27A203E06EC0092170D /* LaunchScreen.storyboard */; };
 		6A5DA285203E06EC0092170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27C203E06EC0092170D /* Main.storyboard */; };
-		6A5DA286203E06EC0092170D /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27E203E06EC0092170D /* left.png */; };
-		6A5DA288203E06EC0092170D /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA280203E06EC0092170D /* right.png */; };
 		9E8784AB203BF53300480EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8784AA203BF53300480EC3 /* AppDelegate.swift */; };
 		9E8784AD203BF53300480EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8784AC203BF53300480EC3 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F5263E2046E7D200CB5899 /* PlayerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInteractor.swift; sourceTree = "<group>"; };
+		08F5263F2046E7D200CB5899 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		08F526412046E7D200CB5899 /* ControllerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerInteractor.swift; sourceTree = "<group>"; };
+		08F526422046E7D200CB5899 /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
+		08F526472046E82500CB5899 /* DogImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageInteractor.swift; sourceTree = "<group>"; };
+		08F526492046F01200CB5899 /* ServerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInteractor.swift; sourceTree = "<group>"; };
 		2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabWebSocketKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit.release.xcconfig"; sourceTree = "<group>"; };
 		46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabWebSocketKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit.debug.xcconfig"; sourceTree = "<group>"; };
-		6A5DA277203E06EC0092170D /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
-		6A5DA278203E06EC0092170D /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		5245932795BE4110694BDC20 /* Pods-itp-mobilelab-week5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itp-mobilelab-week5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-itp-mobilelab-week5/Pods-itp-mobilelab-week5.debug.xcconfig"; sourceTree = "<group>"; };
+		6265AED66B2EE04AEB97B218 /* Pods_itp_mobilelab_week5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itp_mobilelab_week5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5DA279203E06EC0092170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A5DA27B203E06EC0092170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5DA27D203E06EC0092170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A5DA27E203E06EC0092170D /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		6A5DA27F203E06EC0092170D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A5DA280203E06EC0092170D /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		6D4765B3D7A9AED8B5448725 /* Pods-itp-mobilelab-week5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itp-mobilelab-week5.release.xcconfig"; path = "Pods/Target Support Files/Pods-itp-mobilelab-week5/Pods-itp-mobilelab-week5.release.xcconfig"; sourceTree = "<group>"; };
 		9E8784A7203BF53300480EC3 /* itp-mobilelab-week5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itp-mobilelab-week5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8784AA203BF53300480EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E8784AC203BF53300480EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,12 +50,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF721CEF9A5D53408F61CDC /* Pods_MobileLabWebSocketKit.framework in Frameworks */,
+				3A9D4393F2F4D688CD8EB6FB /* Pods_itp_mobilelab_week5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08F5263D2046E7D200CB5899 /* PlayerScene */ = {
+			isa = PBXGroup;
+			children = (
+				08F5263E2046E7D200CB5899 /* PlayerInteractor.swift */,
+				08F5263F2046E7D200CB5899 /* PlayerViewController.swift */,
+				08F526472046E82500CB5899 /* DogImageInteractor.swift */,
+			);
+			path = PlayerScene;
+			sourceTree = "<group>";
+		};
+		08F526402046E7D200CB5899 /* ControllerScene */ = {
+			isa = PBXGroup;
+			children = (
+				08F526412046E7D200CB5899 /* ControllerInteractor.swift */,
+				08F526422046E7D200CB5899 /* ControllerViewController.swift */,
+			);
+			path = ControllerScene;
+			sourceTree = "<group>";
+		};
+		08F5264B2046F06F00CB5899 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				08F526492046F01200CB5899 /* ServerInteractor.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		6A5DA276203E06EC0092170D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +91,6 @@
 				6A5DA27A203E06EC0092170D /* LaunchScreen.storyboard */,
 				6A5DA279203E06EC0092170D /* Assets.xcassets */,
 				6A5DA27F203E06EC0092170D /* Info.plist */,
-				6A5DA277203E06EC0092170D /* up.png */,
-				6A5DA278203E06EC0092170D /* down.png */,
-				6A5DA27E203E06EC0092170D /* left.png */,
-				6A5DA280203E06EC0092170D /* right.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -66,7 +98,7 @@
 		9E87849E203BF53300480EC3 = {
 			isa = PBXGroup;
 			children = (
-				9E8784A9203BF53300480EC3 /* MobileLabWebSocketKit */,
+				9E8784A9203BF53300480EC3 /* itp-mobilelab-week5 */,
 				9E8784A8203BF53300480EC3 /* Products */,
 				E1BD8FFCCCC23BB4FC47E73E /* Pods */,
 				F8FDC0E824E98EC06B1BBBB6 /* Frameworks */,
@@ -81,14 +113,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E8784A9203BF53300480EC3 /* MobileLabWebSocketKit */ = {
+		9E8784A9203BF53300480EC3 /* itp-mobilelab-week5 */ = {
 			isa = PBXGroup;
 			children = (
+				08F5264B2046F06F00CB5899 /* General */,
+				08F526402046E7D200CB5899 /* ControllerScene */,
+				08F5263D2046E7D200CB5899 /* PlayerScene */,
 				9E8784AA203BF53300480EC3 /* AppDelegate.swift */,
 				9E8784AC203BF53300480EC3 /* ViewController.swift */,
 				6A5DA276203E06EC0092170D /* Resources */,
 			);
-			path = MobileLabWebSocketKit;
+			path = "itp-mobilelab-week5";
 			sourceTree = "<group>";
 		};
 		E1BD8FFCCCC23BB4FC47E73E /* Pods */ = {
@@ -96,6 +131,8 @@
 			children = (
 				46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */,
 				2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */,
+				5245932795BE4110694BDC20 /* Pods-itp-mobilelab-week5.debug.xcconfig */,
+				6D4765B3D7A9AED8B5448725 /* Pods-itp-mobilelab-week5.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				ED4E4FC41C5245B3CD7E6534 /* Pods_MobileLabWebSocketKit.framework */,
+				6265AED66B2EE04AEB97B218 /* Pods_itp_mobilelab_week5.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,13 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5DA281203E06EC0092170D /* up.png in Resources */,
 				6A5DA285203E06EC0092170D /* Main.storyboard in Resources */,
-				6A5DA288203E06EC0092170D /* right.png in Resources */,
-				6A5DA286203E06EC0092170D /* left.png in Resources */,
 				6A5DA284203E06EC0092170D /* LaunchScreen.storyboard in Resources */,
 				6A5DA283203E06EC0092170D /* Assets.xcassets in Resources */,
-				6A5DA282203E06EC0092170D /* down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +229,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-itp-mobilelab-week5/Pods-itp-mobilelab-week5-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		801A9E0FC01FFF1B4461EAA7 /* [CP] Embed Pods Frameworks */ = {
@@ -204,16 +238,22 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-itp-mobilelab-week5/Pods-itp-mobilelab-week5-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-itp-mobilelab-week5/Pods-itp-mobilelab-week5-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		814F5A2BE83BD715868E39C2 /* [CP] Check Pods Manifest.lock */ = {
@@ -227,7 +267,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobileLabWebSocketKit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-itp-mobilelab-week5-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -242,6 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8784AD203BF53300480EC3 /* ViewController.swift in Sources */,
+				08F526442046E7D200CB5899 /* PlayerViewController.swift in Sources */,
+				08F526452046E7D200CB5899 /* ControllerInteractor.swift in Sources */,
+				08F5264A2046F01200CB5899 /* ServerInteractor.swift in Sources */,
+				08F526482046E82500CB5899 /* DogImageInteractor.swift in Sources */,
+				08F526432046E7D200CB5899 /* PlayerInteractor.swift in Sources */,
+				08F526462046E7D200CB5899 /* ControllerViewController.swift in Sources */,
 				9E8784AB203BF53300480EC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +423,7 @@
 		};
 		9E8784BA203BF53300480EC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */;
+			baseConfigurationReference = 5245932795BE4110694BDC20 /* Pods-itp-mobilelab-week5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -393,7 +439,7 @@
 		};
 		9E8784BB203BF53300480EC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */;
+			baseConfigurationReference = 6D4765B3D7A9AED8B5448725 /* Pods-itp-mobilelab-week5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

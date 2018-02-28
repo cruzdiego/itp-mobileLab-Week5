@@ -1,0 +1,6 @@
+framework module Pods_itp_mobilelab_week5 {
+  umbrella header "Pods-itp-mobilelab-week5-umbrella.h"
+
+  export *
+  module * { export * }
+}
