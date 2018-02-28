@@ -31,7 +31,7 @@ class ControllerInteractor {
     
     //MARK: Private
     private var serverMessage: String? {
-        guard   let playerName = PlayerInteractor.playerName,
+        guard   let playerName = PlayerInteractor.shared.playerName,
                 direction != .none else {
                 return nil
         }

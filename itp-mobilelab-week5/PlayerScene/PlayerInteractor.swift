@@ -18,6 +18,7 @@ class PlayerInteractor {
         }
         set {
             DefaultKey.playerName.set(newValue)
+            Notification.playerHasChanged.send()
         }
     }
     public var playerImageURLString: String? {
@@ -26,6 +27,7 @@ class PlayerInteractor {
         }
         set {
             DefaultKey.playerImageURLString.set(newValue)
+            Notification.playerHasChanged.send()
         }
     }
     public var playerImageURL: URL? {
@@ -34,6 +36,17 @@ class PlayerInteractor {
         }
         
         return URL(string:urlString)
+    }
+    public enum Notification:String {
+        case playerHasChanged = "PlayerInteractorPlayerHasChanged"
+        
+        var name: NSNotification.Name {
+            return NSNotification.Name(self.rawValue)
+        }
+        
+        func send() {
+            NotificationCenter.default.post(name: self.name, object: nil)
+        }
     }
     
     //MARK: Private
